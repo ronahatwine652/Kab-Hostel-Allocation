@@ -1,0 +1,31 @@
+/* src/index.css */
+:root {
+  --primary-color: #003366;
+  /* Kabale Navy Blue */
+  --secondary-color: #e67e22;
+  /* Accent Gold/Orange */
+  --bg-color: #f4f6f9;
+  --card-bg: #ffffff;
+  --text-color: #333333;
+  --border-color: #dddddd;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
